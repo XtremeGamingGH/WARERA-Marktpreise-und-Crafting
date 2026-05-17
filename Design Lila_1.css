@@ -1,4 +1,3 @@
-
 /* ========================================
    CSS-VARIABLEN FÜR BEIDE MODI
    ======================================== */
@@ -6,17 +5,17 @@
 :root {
   --bg-color: #ffffff;
   --text-color: #333333;
-  --header-bg: #1f6862;
-  --header-text: rgb(128, 207, 156);
+  --header-bg: #2E1F48;
+  --header-text: rgb(186, 162, 225);
   --box-shadow: rgba(0, 0, 0, 0.2);
-  --main-text: rgba(107, 107, 107, 0.8);
-  --footer-text: rgba(107, 107, 107, 0.8);
+  --main-text: rgba(186, 162, 225, 0.8);
+  --footer-text: rgba(186, 162, 225, 0.8);
 }
 
 [data-theme="dark"] {
   --bg-color: #121212;
   --text-color: #e0e0e0;
-  --header-bg: #1f6862;
+  --header-bg: #2E1F48;
   --header-text: #d1c4e9;
   --box-shadow: rgba(255, 255, 255, 0.1);
   --main-text: rgba(255, 255, 255, 0.9);
@@ -88,30 +87,6 @@ nav a:hover {
   background: var(--header-text);
   color: var(--header-bg);
   transform: scale(1.05);
-}
-
-.gewoehnlich {
-  background-color: #565b61 !important;
-  border-color: #000000 !important;
-  color: #ffffff !important;
-}
-
-.ungewoehnlich {
-  background-color: #256641 !important;
-  border-color: #000000 !important;
-  color: #ffffff !important;
-}
-
-.selten {
-  background-color: #1e4394 !important;
-  border-color: #000000 !important;
-  color: #ffffff !important;
-}
-
-.episch {
-  background-color: #482681 !important;
-  border-color: #000000 !important;
-  color: #ffffff !important;
 }
 
 main {
